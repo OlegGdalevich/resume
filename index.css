@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@media (max-width: 650px) {
-    .avatar {
-        height: 25%;
-    }
-    .info {
-        display: block;
-        margin: center;
-      }
-  }
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: normal;
@@ -20,8 +10,8 @@ body {
 }
 
 .avatar {
-    width: 25%;
-    height: 25%;
+    width: 200px;
+    height: 200px;
     margin-right: 5%;
     margin-top: 20px;
     border-radius: 20px;
@@ -133,6 +123,19 @@ body {
 a:hover {
     text-decoration: none;
 }
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+      }
+    .text_info {
+        display: block;
+        margin-right: 20%;
+        margin-left: 15%;
+    }
+  }
+
 /*
 .contact_with_me h2{
     text-align: center;
